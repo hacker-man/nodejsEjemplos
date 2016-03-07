@@ -1,0 +1,15 @@
+{
+  "name": "ejemplonodejs",
+  "version": "1.0.0",
+  "description": "ejemplos nodejs",
+  "main": "servidor_basico.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lautaro",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "chance": "^1.0.1"
+  }
+}
