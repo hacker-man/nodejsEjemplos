@@ -1,5 +1,5 @@
 "use strict";
-
+//Ejemplo mal hecho: bucleAsincronoCasi, solución cuasi valida.
 console.log("Empiezo");
 var escribeTras2Segundos = function (text, callback) {
     setTimeout(function(){
