@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <%users.forEach(function(user){%>
+        <ul>
+            <li>
+                Nombre
+                <input type="text" value='<%= user.name %>'>
+                Edad
+                <input type="text" value='<%= user.age %>'>
+            </li>
+        </ul>
+        <% }) %>
+</body>
+
+</html>
